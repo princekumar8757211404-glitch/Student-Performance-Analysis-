@@ -4,9 +4,8 @@ import joblib
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATASET_PATH = BASE_DIR / "data" / "student-mat.csv"
-MODEL_PATH = BASE_DIR / "models" / "student_performance_model.pkl"
-
+DATASET_PATH = BASE_DIR / "student-mat.csv"
+MODEL_PATH = BASE_DIR / "student_performance_model.pkl"
 st.set_page_config(
     page_title="Student Performance Analysis",
     page_icon="📊",
